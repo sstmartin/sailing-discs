@@ -29,6 +29,8 @@ module.exports = function (grunt) {
    */
 
   var cssFilesToInject = [
+    'linker/styles/style.css',
+    'linker/styles/walkaway/stylesheet.css',
     'linker/**/*.css'
   ];
 
@@ -57,6 +59,7 @@ module.exports = function (grunt) {
     'linker/js/app.js',
 
     // *->    put other dependencies here   <-*
+    'linker/js/jquery.js',
 
     // All of the rest of your app scripts imported here
     'linker/**/*.js'
